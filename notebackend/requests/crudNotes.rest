@@ -1,0 +1,30 @@
+GET http://localhost:3001/api/notes
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYzODBlMjM5ODhkNjI5ODNjYzNjYmRiZCIsImlhdCI6MTY2OTY1NDA5NH0.mi2fU3yu-3tmoTHjwAXWOUKfzEsq9IT4wNXVBMCFy70
+
+{ 
+  "content": "Post with user Root + userId!",
+  "important": true,
+  "userId": "6380e23988d62983cc3cbdbd"
+}
+###
+PUT http://localhost:3001/api/notes/6372693f831e6943cca705fc
+Content-Type: application/json
+
+{ 
+  "content": "VS Code REST put",
+  "important": false
+}
+###
+DELETE  http://localhost:3001/api/notes/637286c4ca91bf069874b369
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: bearer eyJh
+
+{ 
+  "content": "lol",
+  "important": true
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "notebackend",
+			"path": "../notebackend"
+		},
+		{
+			"name": "notefrontend",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
